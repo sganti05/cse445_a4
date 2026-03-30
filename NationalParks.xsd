@@ -17,7 +17,7 @@
       <xs:element name="Phone"   type="xs:string" maxOccurs="unbounded"/>
       <xs:element name="Address" type="AddressType"/>
     </xs:sequence>
-    <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+    <xs:attribute name="Rating" type="xs:string" use="optional"/>
   </xs:complexType>
 
   <!-- Address type: 5 child elements, NearestAirport required -->
