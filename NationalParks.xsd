@@ -23,7 +23,7 @@
   <!-- Address type: 5 child elements, NearestAirport required -->
   <xs:complexType name="AddressType">
     <xs:sequence>
-      <xs:element name="Number" type="xs:int"/>
+      <xs:element name="Number" type="xs:string"/>
       <xs:element name="Street" type="xs:string"/>
       <xs:element name="City"   type="xs:string"/>
       <xs:element name="State"  type="xs:string"/>
